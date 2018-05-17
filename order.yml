@@ -1,5 +1,5 @@
 spring:
-application:
+    application:
         name: order123
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
