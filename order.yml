@@ -1,6 +1,6 @@
 spring:
     application:
-        name: order123
+        name: order
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
