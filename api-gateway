@@ -1,0 +1,13 @@
+server:
+  port: 9006
+zuul:
+  routes:
+#    myProduct:
+#      path: /myProduct/**
+#      serviceId: product
+    product: /myProduct/**
+management:
+  security:
+    enabled: false
+
+env: dev
