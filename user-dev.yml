@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+  redis:
+    port: 6379
+    host: localhost
+env: dev
