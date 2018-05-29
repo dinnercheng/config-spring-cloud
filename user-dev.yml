@@ -10,3 +10,5 @@ spring:
     port: 6379
     host: localhost
 env: dev
+server:
+  port: 9007
