@@ -6,6 +6,7 @@ zuul:
 #      path: /myProduct/**
 #      serviceId: product
     product: /myProduct/**
+    user: /user/**
 management:
   security:
     enabled: false
